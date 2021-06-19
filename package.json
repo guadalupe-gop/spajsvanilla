@@ -1,11 +1,11 @@
 {
   "name": "spajavascript",
   "version": "1.0.0",
-  "description": "",
+  "description": "single page Application js vanilla",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack serve --open --mode development"
   },
   "keywords": [
     "javascript"
@@ -19,5 +19,13 @@
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guadalupe-gop/spajsvanilla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guadalupe-gop/spajsvanilla/issues"
+  },
+  "homepage": "https://github.com/guadalupe-gop/spajsvanilla#readme"
 }
